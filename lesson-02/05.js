@@ -6,5 +6,5 @@ let passport = {
 let clonePasport = {...passport};
 clonePasport.name = "Ivan";
 
-console.log(passport);
-console.log(clonePasport);
+console.log(passport.name);
+console.log(clonePasport.name);
